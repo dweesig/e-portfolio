@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Dweezil S. Macapagal</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="dweesigmac@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Dweezil! 👋</h2>
+        <p>A 25-year-old graduated at Holy Angel University, pursuing a degree in Information Technology with a major in Network Administration. Known for my punctuality, kindness, and trustworthiness, I always bring a strong work ethic and a positive attitude to everything I do. A resident of Essel Park Subdivision, I balance my lifestyle with a range of hobbies, including basketball, volleyball, tennis, table tennis, swimming, and chess. Gaming has been a lifelong passion, and more recently, I've taken up working out, inspired by a friend to prioritize fitness. My ultimate goal is to secure a role at a reputable company in his field, and planning to pursue CCNA certification to further my career in network administration.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/hero-headshot.jpg" alt="Dweezil">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Strongly focused on Cisco technologies, well-prepared for roles that involve network configuration, administration, and troubleshooting. My expertise in Cisco aligns with my major in Network Administration, allowing me to effectively design and maintain network infrastructures. Additionally, foundational knowledge of Python, Java, HTML, and CSS, which provide him with a basic understanding of programming and web development concepts.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/py-logo.png" alt="python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/cis-logo.png" alt="cisco logo">
+          <span>Cisco</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/testi.jpg">
+          <p>Dweezil Macapagal</p>
+        </div>
+
+        <div class="text">
+          "An individual who embodies reliability and integrity in every sense. Punctuality is a testament to my respect for others' time and my commitment to meeting responsibilities head-on. Known for my obedience and willingness to listen and learn, will always bring a cooperative spirit to any team. Kindness and trustworthy nature make me approachable and dependable, earning the confidence and respect of both my friends and mentors. Additionally, my neatness reflects meticulous approach to work, ensuring that I maintains high standards in everything I do. Together, these qualities make me a valuable and admirable presence in any environment."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>• Phone Number: 0939 454 0497 (Smart)</p>
+          <p>• Email Address: dweesigmac@gmail.com</p>
+          <p>• Facebook: https://www.facebook.com/zil.sigua/</p>
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
